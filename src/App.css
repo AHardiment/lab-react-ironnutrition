@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.food-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.food-list h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.food-list hr {
+  width: 40rem;
+}
+
+.foods {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.food-map {
+  margin-left: 1rem;
+}
+
+.food-boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.add-form-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
